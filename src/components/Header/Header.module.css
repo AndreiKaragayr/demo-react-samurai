@@ -1,0 +1,54 @@
+.header {
+	grid-area: h;
+	background-color: #283e4a;
+	color: #fff;
+	padding: 0;
+}
+
+.header svg {
+	max-width: 42px;
+	max-height: 42px;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 2fr 10fr;
+	grid-template-areas: "logo nav login";
+}
+
+.logo {
+	grid-area: logo;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.login button,
+.logo a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	background: transparent;
+	border: 0;
+	line-height: 20px;
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+}
+
+.login {
+	color: #fff;
+	grid-area: login;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.name {
+	margin-right: 15px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}

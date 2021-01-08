@@ -1,0 +1,13 @@
+.profileBody {
+	display: grid;
+	grid-template-columns: 9fr 3fr;
+	grid-template-rows: 1fr;
+	grid-gap: 20px;
+	grid-template-areas:
+		"profile" /*строка*/
+		"sidebar";
+}
+
+.profile {
+	grid-areas: profile;
+}

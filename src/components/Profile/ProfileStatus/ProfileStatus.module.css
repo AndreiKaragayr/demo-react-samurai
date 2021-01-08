@@ -1,0 +1,14 @@
+.statusActive {
+	user-select: none;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.statusEdit {
+	margin-bottom: 20px;
+}
+
+.statusEdit input {
+	padding: 4px 8px;
+	height: 32px;
+}

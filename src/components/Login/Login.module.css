@@ -1,0 +1,56 @@
+.root h1 {
+	font-size: 2.4rem;
+	line-height: 1.33333;
+	font-weight: 600;
+	color: rgba(0,0,0,0.9);
+	padding: 0 0 4px 0;
+	text-align: center;
+}
+
+.form {
+	font-size: 16px;
+	line-height: 1.33333;
+	max-width: 384px;
+	margin: auto;
+}
+
+.form label {
+	margin: 0 8px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.group {
+	margin-bottom: 12px;
+}
+
+.form button {
+	width: 100%;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: inherit;
+	height: 52px;
+	line-height: 52px;
+	overflow: hidden;
+	outline-width: 2px;
+	padding: 0 24px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	z-index: 0;
+	margin: 8px 0 0 0;
+	flex: 1;
+	background: #0a66c2;
+	border-radius: 28px;
+	border: 0;
+	box-sizing: border-box;
+}
+
+.formError {
+	color: #ff6666;
+	margin-top: 10px;
+}

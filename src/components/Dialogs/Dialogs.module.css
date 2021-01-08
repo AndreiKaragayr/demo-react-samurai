@@ -1,0 +1,100 @@
+.dialogs {
+	display: grid;
+	grid-template-columns: 3fr 9fr;
+}
+
+.items {
+	margin-right: 15px;
+	border: 1px solid #cdcfd2;
+	border-radius: 3px 3px 0 0;
+	overflow: hidden;
+}
+
+.items .active a {
+	background-color: #f3f6f8;
+	box-shadow: 4px 0 0 #0073b1 inset, 0 -1px 0 #f3f6f8 inset;
+}
+
+.dialog a {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 400;
+	color: rgba(0,0,0,.9);
+	background-color: #fff;
+	text-decoration: none;
+	transition: 0.3s ease;
+}
+
+.dialog a:hover {
+	background-color: #f3f6f8;
+}
+
+.avatar {
+	padding: 12px 0 12px 12px;
+}
+
+.avatar img{
+	display: block;
+	width: 56px;
+	height: 56px;
+	box-sizing: border-box;
+	background-clip: content-box;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 50%;
+}
+
+.name {
+	min-height: 80px;
+	padding: 12px 8px;
+	width: calc(100% - 56px);
+	border-bottom: 1px solid #e6e9ec;
+}
+
+.dialog:last-child {
+	border-bottom: none;
+}
+
+.dialog:last-child .name {
+	border-bottom: 0;
+}
+
+.dialogWrap {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background: #fff;
+	border: 1px solid #cdcfd2;
+}
+
+.messages {
+	background: #fff;
+	border-radius: 3px 3px 0 0;
+	padding: 12px;
+}
+
+.message {
+
+}
+
+.form {
+	font-size: 16px;
+	line-height: 1.33333;
+	max-width: 100%;
+}
+
+.group {
+	border-top: 1px solid rgba(0,0,0,0.6);
+	margin-bottom: 12px;
+}
+
+.form button {
+	background-color: #0073b1;
+	color: #fff;
+	padding: 10px 15px;
+	border: 0;
+	cursor: pointer;
+	margin-bottom: 12px;
+	margin-left: 12px;
+}

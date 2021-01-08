@@ -1,0 +1,49 @@
+.root {
+  position: relative;
+}
+
+.root input,
+.root textarea {
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgba(0,0,0,.9);
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  transition-duration: 334ms;
+  box-shadow: none;
+  border-radius: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+.root input {
+  border: 1px solid rgba(0,0,0,.6);
+}
+
+.root textarea {
+  height: 100px;
+  resize: none;
+  border: 0;
+  border-bottom: 1px solid transparent;
+}
+
+.root input:focus,
+.root textarea:focus {
+  outline: none;
+}
+
+.root.error input,
+.root.error textarea {
+  border-color: #ff6666;
+}
+
+.root.error .message {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ff6666;
+}

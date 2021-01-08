@@ -1,0 +1,36 @@
+.postsContainer {
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+	transition: box-shadow 83ms;
+	border-radius: 2px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.posts {}
+
+.form {
+	font-size: 16px;
+	line-height: 1.33333;
+	max-width: 100%;
+	box-shadow: 0 0 0 1px rgba(0,0,0,.15), 0 2px 3px rgba(0,0,0,.2);
+	transition: box-shadow 83ms;
+	background-color: #fff;
+	margin: 15px 0 30px;
+}
+
+.group {
+	margin-bottom: 12px;
+}
+
+.form button {
+	background-color: #0073b1;
+	color: #fff;
+	padding: 10px 15px;
+	border: 0;
+	cursor: pointer;
+	margin-bottom: 12px;
+	margin-left: 12px;
+}

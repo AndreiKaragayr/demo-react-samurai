@@ -1,0 +1,30 @@
+.navbar {
+	grid-area: nav;
+}
+
+nav {
+	height: 52px;
+	display: flex;
+	justify-content: center;
+	margin: 0 15px;
+}
+
+.navbar .item a:hover {
+	color: #fff;
+}
+
+.navbar .item .activeLink {
+	color: #fff;
+	box-shadow: 0 -2px 0 #fff inset;
+}
+
+.navbar .item a {
+	font-size: 16px;
+	line-height: 52px;
+	padding: 0 15px;
+	color: #c7d1d8;
+	display: block;
+	font-weight: 400;
+	transition: all .2s ease;
+	text-decoration: none;
+}

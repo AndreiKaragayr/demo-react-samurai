@@ -1,0 +1,9 @@
+.item.active {
+	color: green;
+}
+
+.item img {
+	display: block;
+	max-width: 64px;
+	border-radius: 50%;
+}
