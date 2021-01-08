@@ -67,7 +67,7 @@ let AppContainer = compose(
 
 const SamuraiJSApp = (props) => {
     return (
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter>
             <Provider store={store}>
                 <AppContainer/>
             </Provider>
